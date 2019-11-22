@@ -17,7 +17,7 @@ public class Main
     {
         list_of_predators = new ArrayList<>();
         list_of_herbivores = new ArrayList<>();
-       Object obj = new JSONParser().parse(new FileReader("D:\\JAVA_PROJECTS\\IdeaProjects\\zoo\\src\\com\\company\\AList.json"));
+       Object obj = new JSONParser().parse(new FileReader("src\\com\\company\\AList.json"));
        JSONObject jo = (JSONObject) obj;
        String kind, animal_sound;
        long number;
