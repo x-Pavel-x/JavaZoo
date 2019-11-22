@@ -1,0 +1,14 @@
+  {
+    "kind1": "Зебра",
+    "kind2": "Слон",
+    "kind3": "Медведь",
+    "kind4": "Лев",
+    "animal_sound1": "*звуки зебры*",
+    "animal_sound2": "*звуки слона*",
+    "animal_sound3": "*звуки медведя*",
+    "animal_sound4": "*звуки льва*",
+    "number1": 3,
+    "number2": 2,
+    "number3": 2,
+    "number4": 4
+  }
