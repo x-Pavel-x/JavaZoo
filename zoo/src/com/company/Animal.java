@@ -8,6 +8,10 @@ public abstract class Animal
     public boolean sleep_status; // true = спит
     public boolean get_noise_status()
     {
-        return noise_status;
+        return this.noise_status;
+    }
+    public boolean get_sleep_status()
+    {
+        return this.sleep_status;
     }
 }

@@ -3,7 +3,7 @@ package com.company;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import java.io.FileNotFoundException;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ public class Main
     public static int size_of_predators, size_of_herbivores;
     public static ArrayList<predators> list_of_predators;
     public static ArrayList<herbivores> list_of_herbivores;
-    public static void main(String[] args) throws IOException, FileNotFoundException, ParseException
+    public static void main(String[] args) throws IOException , ParseException
     {
         list_of_predators = new ArrayList<>();
         list_of_herbivores = new ArrayList<>();
@@ -51,18 +51,5 @@ public class Main
         }
         size_of_herbivores = list_of_herbivores.size();
         size_of_predators = list_of_predators.size();
-/*
-ZooEvents.zoo_keeper_come_to_predators();
-ZooEvents.feeding_predator_animal();
-ZooEvents.zoo_keeper_come_to_herbivores();
-ZooEvents.feeding_herbivores_animal();
-ZooEvents.zoo_keeper_come_to_predators();
-ZooEvents.feeding_predator_animal();
-ZooEvents.night_come();
-ZooEvents.thunder();
-ZooEvents.zoo_keeper_come_to_herbivores();
-ZooEvents.feeding_herbivores_animal();
-ZooEvents.zoo_keeper_come_to_predators();
-ZooEvents.feeding_predator_animal();*/
     }
 }
